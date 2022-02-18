@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="triangle-sector-similarity",
-    version="0.1.1",
+    version="0.1",
     description="Finds similarity between vectors",
     long_description_content_type="text/markdown",
     url="https://github.com/mohvam98/triangle-sector-similarity",
