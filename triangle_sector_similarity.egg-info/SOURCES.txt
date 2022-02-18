@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+triangle-sector-similarity/__init__.py
+triangle_sector_similarity.egg-info/PKG-INFO
+triangle_sector_similarity.egg-info/SOURCES.txt
+triangle_sector_similarity.egg-info/dependency_links.txt
+triangle_sector_similarity.egg-info/requires.txt
+triangle_sector_similarity.egg-info/top_level.txt
