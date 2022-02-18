@@ -24,7 +24,7 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
     ],
-    packages=["triangle-sector-similarity"],
+    packages=["triangle_sector_similarity"],
     include_package_data=True,
     install_requires=['numpy','scipy']
 )
