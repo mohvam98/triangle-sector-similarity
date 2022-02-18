@@ -1,5 +1,5 @@
 # Triangle Area - Sector Area Similarity
-It takes two vectors as an input and prints and can return Cosine Similarity, Eucledian Distance, Triangle Area - Sector Area Similarity.
+It takes two vectors as an input and can return Cosine Similarity, Eucledian Distance, Triangle Area - Sector Area Similarity.
 
 ## Installation
 ``` pip install triangle_sector_similarity ```
