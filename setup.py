@@ -25,5 +25,5 @@ setup(
     ],
     packages=["triangle-sector-similarity"],
     include_package_data=True,
-    install_requires=[]
+    install_requires=['numpy','scipy','math']
 )
