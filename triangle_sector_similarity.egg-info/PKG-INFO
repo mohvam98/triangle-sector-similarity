@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: triangle-sector-similarity
-Version: 1.4
+Version: 1.5
 Summary: Find the similarity between vectors
-Home-page: https://github.com/mohvam98/triangle-sector-similarity
+Home-page: https://github.com/mohvam98/triangle_sector_similarity
 Author: mohan98
 Author-email: mohanavamsi98@gmail.com
 License: MIT
