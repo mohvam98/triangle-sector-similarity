@@ -26,3 +26,25 @@ def Sector_Similarity(vec1, vec2):
 
 def TS_SS(vec1, vec2):
     return Triangle_Similarity(vec1, vec2) * Sector_Similarity(vec1, vec2)
+
+def pair_wise(lst1,lst2,flag):
+    pair_sim = np.zeros((len(lst1),len(lst2)))
+    for i in range(pair_sim.shape[0]):
+        for j in range(pair_sim.shape[1]):
+            if flag == 0:
+                pair_sim[i][j] = Cosine_Similarity(lst1[i],lst2[j])
+            if flag == 1:
+                pair_sim[i][j] = Euclidean_Distance(lst1[i],lst2[j])
+            if flag == 2:
+                pair_sim[i][j] = TS_SS(lst1[i],lst2[j])
+    return pair_sim
+
+def Pairwise_Cosine_Similarity(lst1,lst2):
+    return pair_wise(lst1,lst2,0)
+
+def Pairwise_Euclidean_Distance(lst1,lst2):
+    return pair_wise(lst1,lst2,1)
+    
+def Pairwise_TS_SS(lst1,lst2):
+    return pair_wise(lst1,lst2,2)
+
